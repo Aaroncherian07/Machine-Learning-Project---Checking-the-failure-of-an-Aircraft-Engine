@@ -1,0 +1,12 @@
+Machine-Learning-Project---Checking-the-failure-of-an-Aircraft-Engine
+
+This repository was one of my assignments in my MSc Course in Applied Artificial Intelligence. In this assignment it was expected to predict the TTF(Time-To-Failure of each engine and classify which engine will fail in the analyzed time period.
+
+Aim The aim of the analysis is to enhance the maintenance operations and planning of time-based preventive maintenance of the aircraft engine. This is supposed to be done by applying statistical learning methods: regression and classification
+
+Problem Definition Failure prediction is a major topic in predictive maintenance in many industries. Aircraft manufacturers, OEM’s and end users are highly interested in prediction of component failures during the operation so that they can plan maintenance operations and reduce losses due to the time aircraft has spent on the ground. Monitoring of the engine health and current condition is based on sensor data analysis and telemetry from the engine sub-systems. It is supposed to promote predictive maintenance by estimating Time-To-Failure (TTF) or remaining Useful Life (RUL) for aircraft components that are currently in-service and may be fully functional at the time of testing. Based on the measurements from the sensors of the aircraft engine, the developed analysis framework should provide the following predictions, which are the objective of this assignment:
+
+    Time-To-Failure (TTF) prediction for the engine.
+    Classify which engine will fail in the analysed time period.
+
+Data Given The data given consists of training data and testing data for aircraft engines with their simulated time to failure events along with four sensor measurements responsible for the ttf. The dataset was originally taken from NASA C-MAPPS. • Training data contains of engine id for the 100 aircraft engine, cycle per engine sequence starting from 1 to cycle number where failure happened, sensor measurements of 4 sensors, time to failure of the engines along with a label_bnc required during classification • Testing data consists of measurements of 4 sensors performed at a randomly selected cycle of engine operation. TTF is found to be different from the ones found in the training data.
